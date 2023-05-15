@@ -1,0 +1,50 @@
+input, select, textarea{
+    border: 1px solid rgb(178, 170, 170);
+    padding: 8px 10px;
+    width: 100%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+input:focus, select:focus, textarea:focus{
+    border: 1px solid rgb(178, 170, 170);
+    outline: none;
+}
+
+.primary-contained-btn {
+    background: linear-gradient(to right, var(--primary), #4e0820);
+    color: #fff;
+    padding: 8px 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.primary-contained-btn:hover {
+    background: linear-gradient(to right, #ff4081, var(--primary));
+}
+
+.primary-outlined-btn {
+    background-color: #fff;
+    color: var(--primary);
+    padding: 8px 20px;
+    text-transform: uppercase;
+    border: 1px solid var(--primary);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.primary-outlined-btn:hover {
+    background: linear-gradient(to right, var(--primary), #ff4081);
+    color: #fff;
+    border-color: #ff4081;
+}
