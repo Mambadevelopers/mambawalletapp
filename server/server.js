@@ -4,7 +4,7 @@ const app = express();
 require("dotenv").config();
 
 app.use(express.json());
-const dbConfig = require("./config/dbConfig");
+const dbConfig = require("./config/dbConfig")
 const usersRoute = require("./routes/usersRoute");
 const transactionsRoute = require("./routes/transactionsRoute");
 const requestsRoute = require("./routes/requestsRoute");
@@ -15,6 +15,8 @@ app.use("/api/requests", requestsRoute);
 
 const PORT = process.env.PORT || 5000;
 const path = require("path");
+__dirname = path.resolve();
+
 
 //Heroku deployment
 if(process.env.NODE_ENV === "production") {

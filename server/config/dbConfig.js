@@ -13,4 +13,4 @@ connectionResult.on('connected', () => {
   console.log('====================================');
 });
 
-module.export = connectionResult;
+module.exports = connectionResult;
